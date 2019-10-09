@@ -72,63 +72,18 @@
 						<img class="v-avatar" src="moh.png" width="350" height="350" alt="avatar" data-v-2a183b29="">
 					</div>
 					<h2>Hello There!</h2>
-					<p>
-						My name is Mohammad <br> (but as I said, you can call me Mo)!
+					<p class="fragment">
+						My name is Mohammad <br>
+						<span class="fragment">
+							(but as I said, you can call me Mo)!
+						</span> 
 					</p>
-					<small>Man this photo of me is so young and innocent! :D</small>
+					<div style="display: inline-block;" class="fragment">
+						<small>Man this photo of me is so young and innocent! :D</small>
+					</div>
 				</section>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
+				<!-- <section>
 					<section id="fragments">
 						<h2>Fragments</h2>
 						<p>Hit the next arrow...</p>
@@ -155,83 +110,165 @@
 						<p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
 						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
 					</section>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
+				</section> -->
 
 				<section>
 					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h2>Where Are You From?	</h2>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+					<section data-background="iran-map.png">
+						<h2></h2>
+						<div class="fragment fade-in-then-out"
+							style="position: absolute; left: 20% ;width: 50%; margin-top: 100px; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 40px; text-align: center;">
+							Also known as Persia!
+						</div>
+						<div class="fragment" style="margin-top: 20px; background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>But where is it on a world map?</h2>
 						</div>
 					</section>
+					<section
+						data-background-video="http://uupload.ir/filelink/8e257ac48da0b37d1d7651ee257ce63a/p2f_iran.mp4"
+						data-background-color="#000000">
+					</section>
 					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
+						<h2>Cool!</h2>
 					</section>
 				</section>
 
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				<section >
+					<section data-background="#dddddd">
+						<div class="centered">
+							<img style="background: none; border: none; box-shadow: none" width="200px" height="200px" src="education.svg" alt="Education">
+						</div>
+						<h3>Education</h3>
+					</section>
+
+					<section>
+						<h2 class="fragment fade-in-then-semi-out">
+							Alborz Highschool
+						</h2>
+						<small class="fragment fade-in-then-semi-out">
+							Founded in <strong>1873!</strong>
+						</small>
+						<div style="position: absolute; left:0;" class="fragment fade-left">
+							<img height="300px" src="alborz-air.jpg" alt="alborz-air">
+						</div>
+						<div style="position: absolute; right: 0;" class="fragment fade-right">
+							<img height="200px" src="alborz-american-college.jpg" alt="alborz-american-college-air">
+						</div>
+						<div style="position: absolute; top: 400px; right: 50px;" class="fragment fade-bottom">
+							<img height="200px" src="Alborz_American_College.jpg" alt="Alborz_American_College">
+						</div>
+						<div style="position: absolute; top: 450px; left: -50px;" class="fragment">
+							<img height="200px" src="alborz-exterior.jpg" alt="alborz-exterior">
+						</div>
+						<div style="position: absolute; margin-top: 20px; right: 300px;" class="fragment">
+							<img height="200px" src="alborz-inside.jpg" alt="alborz-inside">
+						</div>
+						<div style="position: absolute; margin-top: 60px; right: 100px;" class="fragment">
+							<img height="400px" src="alborz-footsteps.jpg" alt="alborz-footsteps">
+						</div>
+					</section>
+
+					<section 
+						data-background="aut-sunset.jpg" 
+						data-background-size="500px" 
+					>
+						<h2 class="fragment fade-in-then-out">
+							Next Stop
+						</h2>
+						<div style="position: absolute; top: -300px;display: flex; width: 100%;" class="fragment">
+							<div class="centered">
+								<img style="background: none; border: none; box-shadow: none" width="300px" height="300px" src="aut-logo.webp"
+									alt="aut">
+							</div>
+						</div>
+					</section>
+
+					<section data-background="hardware-eng.gif">
+						<div class="fragment fade-in-then-out"
+							style="box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 40px; text-align: center;">
+							<div class="centered">
+								<img style="background: none; border: none; box-shadow: none" width="200px" height="200px" src="ce-logo.png"
+									alt="ce-logo">
+							</div>
+							<h3>Computer Engineering</h3>
+							<h4>System Architecture and Hardware Design</h4>
+						</div>
+					</section>
+
+					<section data-background="#dddddd">
+						<div class="centered fragment fade-in-then-out">
+							<h3>
+								So what did you do in bachelors?
+							</h3>
+							<img style="background: none; border: none; box-shadow: none" width="200px" height="200px" src="thinking.png"
+								alt="thinking">
+						</div>
+						<div class="fragment">
+							<h2>Well...</h2>
+							<ul style="list-style-type: none;">
+								<li class="fragment fade-in-then-semi-out">Lots</li>
+								<li class="fragment fade-in-then-semi-out">And lots</li>
+								<li class="fragment fade-in-then-semi-out">And lots of TAships :))</li>
+								<li class="fragment">for some reason! </li>
+							</ul>
+						</div>
+					</section>
+
+					<section data-background="#dddddd">
+						<h2 class="fragment fade-in-then-semi-out">
+							Also a good amount of extracurricular activities!
+						</h2>
+						<h2 class="fragment">
+							Things like...
+						</h2>
+					</section>
+
+					<section>
+						<h2 class="fragment fade-in-then-semi-out">
+							<strong>S</strong>tudent <strong>S</strong>cientific <strong>C</strong>ouncil 
+						</h2>
+						<small class="fragment fade-in-then-semi-out">
+							SSC
+						</small>
+						<div style="position: absolute; left:0;" class="fragment fade-left">
+							<img height="300px" src="aut-acm-good.jpg" alt="aut-acm-good">
+						</div>
+						<div style="position: absolute; top: 150px; right: -100px;" class="fragment fade-right">
+							<img height="400px" src="aut-linux.jpg" alt="aut-linux">
+						</div>
+						<div style="position: absolute; top: 400px; right: 50px;" class="fragment fade-bottom">
+							<img height="200px" src="aut-acm-outside.jpg" alt="aut-acm-outside">
+						</div>
+						<div style="position: absolute; top: 450px; left: -50px;" class="fragment">
+							<img height="200px" src="aut-acm-outside-selfie.jpg" alt="aut-acm-outside-selfie">
+						</div>
+						<div style="position: absolute; margin-top: 20px; right: 300px;" class="fragment">
+							<img height="300px" src="aut-acm.jpg" alt="aut-acm">
+						</div>
+						<div style="position: absolute; margin-top: 200px; right: 200px;" class="fragment">
+							<img height="300px" src="aut-lastssc.jpg" alt="aut-lastssc">
+						</div>
+					</section>
+
+					<section>
+						<h2>And of course, Studying :D</h2>
+					</section>
 				</section>
 
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+
+				<section data-background="#ffad16">
+					<div class="centered">
+						<img style="background: none; border: none; box-shadow: none" width="200px" height="200px" src="programmer.svg"
+							alt="Professional">
+					</div>
+					<h3>Professional Life</h3>
+					<div style="position: absolute; bottom: -40px; width: 100%;" class="centered fragment">
+						<small>
+							Becuase studying doesn't pay (at least not in undergrad!)
+						</small>
+					</div>
 				</section>
 
 				<section data-background-iframe="https://hakim.se" data-background-interactive>
@@ -239,27 +276,6 @@
 						<h2>Iframe Backgrounds</h2>
 						<p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
 					</div>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim data-line-numbers="4,8-9">
-import React, { useState } from 'react';
-
-function Example() {
-  const [count, setCount] = useState(0);
-
-  return (
-    &lt;div&gt;
-      &lt;p&gt;You clicked {count} times&lt;/p&gt;
-      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
-        Click me
-      &lt;/button&gt;
-    &lt;/div&gt;
-  );
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
 				</section>
 
 				<section>
